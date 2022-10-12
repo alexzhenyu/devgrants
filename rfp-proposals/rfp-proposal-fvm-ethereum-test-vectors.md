@@ -51,25 +51,25 @@ This tool can be written in either Go or Rust.
    </td>
    <td><strong>Estimated Timeframe</strong>
    </td>
-   <td><strong>Estimated people</strong>
+   <td><strong>FTE</strong>
    </td>   
   </tr>
   <tr>
    <td>1
    </td>
-   <td>Implementation of a tool which fetches hundreds of contracts from Ethereum, stores them and and deploys them to Filecoin testnet
+   <td>Design the test tool architecture and finalize the specification
    </td>
    <td>TBD
    </td>
-   <td>5 days
+   <td>2 days
    </td>
-    <td>2 
+    <td>1 
    </td>
   </tr>
   <tr>
    <td>2
    </td>
-   <td>Implementation of a tool which fetches thousands of transactions from Ethereum, stores them and replays them on Filecoin testnet
+   <td>Implementation of a function which fetches hundreds of contracts and transactions from Ethereum, stores them 
    </td>
    <td>TBD
    </td>
@@ -81,7 +81,19 @@ This tool can be written in either Go or Rust.
   <tr>
    <td>3
    </td>
-   <td>Implementation of a tool which compares the Ethereum state before and after these transactions with the results on Filecoin
+   <td>Implementation of a function which deploys contracts to Filecoin testnet and replays transactions on Filecoin testnet
+   </td>
+   <td>TBD
+   </td>
+   <td>5 days
+   </td>
+    <td>2 
+   </td>
+  </tr>
+  <tr>
+   <td>4
+   </td>
+   <td>Implementation of a function which compares the Ethereum state before and after these transactions with the results on Filecoin
    </td>
    <td>TBD
    </td>
@@ -91,13 +103,13 @@ This tool can be written in either Go or Rust.
    </td>
   </tr>
   <tr>
-   <td>4
+   <td>5
    </td>
-   <td>How-to guides are prepared and demo is presented
+   <td>Finish the test and work out the guides about how to use
    </td>
    <td>TBD
    </td>
-   <td>2 days
+   <td>3 days
     <td>1
    </td>
    </td>
